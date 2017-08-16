@@ -56,14 +56,24 @@ img.logo {
 
 
 .banner {
-  background-image: url(../links/fundo-banner.jpg);
-  background-repeat: no-repeat;
+  background-color: #7320DD;
   height: 440px;
   width: 1280px;
   margin: 0 auto;
   border-top: 1px solid #F0F2F5;
+  overflow: hidden;
+
 }
 
+.circle.banner {
+  background-color: white;
+  width: 1500px;
+  height: 1200px;
+  border-radius: 1500px;
+  position: relative;
+  top: -850px;
+  left: -850px;
+}
 
 h1 {
   font-family: lato, sans-serif;
@@ -74,23 +84,27 @@ h1 {
   top: 100px;
   left: 100px;
   line-height: 45px;
+  z-index:2;
 }
 
 .maroto {
   font-family: lato, sans-serif;
   font-size: 50pt;
+  z-index:2;
 }
 
 .trinta {
   font-family: lato, sans-serif;
   font-size: 50pt;
   color: #00B5C9;
+  z-index:2;
 }
 
 .off {
   font-family: lato, sans-serif;
   font-size: 18pt;
   color: #00B5C9;
+  z-index:2;
 }
 
 
@@ -106,6 +120,7 @@ h1 {
   position: relative;
   top: -80px;
   left: 100px;
+  z-index:2;
 }
 
 .banner button:hover {
@@ -154,8 +169,8 @@ div.itens {
   width: 150px;
   height: 150px;
   position: relative;
-  left: 55px;
-  top: 45px;
+  transform: translate(40%);
+  top: 2em;
   border: 2px solid #00A1D8;
   border-radius: 100px;
   display: flex;
@@ -164,31 +179,28 @@ div.itens {
 
 .camisetas {
   width: 75px;
-  margin: 0 auto;
+  transform: translate(50%);
+  margin: auto 0;
   position: relative;
-  top: 40px;
 }
 
 .tenis {
   font-family: lato, sans-serif;
   width: 75px;
-  margin: 0 auto;
+  margin: auto;
   position: relative;
-  top: 55px;
 }
 
 .sapatos {
   width: 75px;
-  margin: 0 auto;
+  margin: auto;
   position: relative;
-  top: 55px;
 }
 
 .chuteiras {
   width: 75px;
-  margin: 0 auto;
+  margin: auto;
   position: relative;
-  top: 55px;
 }
 
 p {
@@ -259,7 +271,7 @@ footer {
   flex-direction: column;
 }
 
-img.logo-footer {
+.logo-footer {
   width: 135px;
   position: relative;
   padding-top: 40px;
