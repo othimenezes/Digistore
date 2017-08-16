@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Digistore</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/estilos.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:200,400,700" rel="stylesheet">
   <link rel="icon" href="links/fav.png" type="image/x-icon"/>
+
 </head>
 
 <body>
@@ -23,7 +25,7 @@
 
   <div class="banner">
     <h1>Tênis<br> <span class="maroto">Maroto</span> <span class="trinta">30</span><span class="off">%Off</span></h1>
-    <button type="button" name="button">Comprar</button>
+    <a class="button" href="http://www.netshoes.com.br/produto/tenis-adidas-duramo-7-feminino-D13-2357-118" target="_blank">Comprar</a>
     <img src="links/tenis-banner.svg" alt="Tênis Maroto">
     <div class="circle banner">
 
@@ -31,7 +33,7 @@
   </div>
 
   <section class="itens">
-    <h2>Categorias</h2>
+    <h2 class="subtitulo">Categorias</h2>
     <div class ="itens">
       <div class="categorias">
         <div class="circle-itens">
@@ -61,7 +63,7 @@
       </div>
   </div>
 
-  <section id="descontos">
+  <div id="descontos">
     <h2 class="descontos">Descontos exclusivos no seu e-mail!</h2>
     <p class ="input">Insira seu e-mail no campo abaixo:</p>
 
@@ -69,7 +71,7 @@
       <input type="email" name="email">
       <button class ="input" type="button" name="Cadastrar" onclick="alert('Cadastrado com Sucesso')">Cadastrar</button>
     </form>
-  </section>
+  </div>
 
   </section>
 
@@ -79,5 +81,4 @@
   </footer>
 
 </body>
-
 </html>
