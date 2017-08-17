@@ -54,14 +54,10 @@ img.logo {
   width: 14px;
   position: relative;
   left: -25px;
-  top: 2px;
-
-
-  
+  top: 2px;  
 }
 
 /*BANNER*/
-
 
 .banner {
   background-color: #7320DD;
@@ -378,7 +374,4 @@ footer p {
   .subtitulo {
   width: 200px;
   }
-
-}
-
 }
