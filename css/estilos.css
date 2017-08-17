@@ -3,7 +3,7 @@ body {
   margin:0;
 }
 
-/**NAVEGAÇÃO**/
+/*NAVEGAÇÃO*/
 
 header {
   height: 100px;
@@ -43,19 +43,24 @@ img.logo {
   font-family: lato,sans-serif;
   background-color: #00A1D8;
   border: none;
-  border-radius: 15px;
-  width:15px;
-  height: 15px;
+  border-radius: 50%;
   color: white;
-  text-align: center;
   font-size: 8pt;
   font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 14px;
+  width: 14px;
   position: relative;
-  top: 2px;
   left: -25px;
+  top: 2px;
+
+
+  
 }
 
-/**BANNER**/
+/*BANNER*/
 
 
 .banner {
@@ -110,8 +115,7 @@ h1 {
   z-index:2;
 }
 
-
-.button {
+.button-compra {
   font-family: lato, sans-serif;
   padding: 10px 80px;
   background-color: #00A1D8;
@@ -126,7 +130,7 @@ h1 {
   z-index:2;
 }
 
-.button:hover {
+.button-compra:hover {
   background-color: #007FC7;
 }
 
@@ -137,9 +141,9 @@ h1 {
   left: 500px;
 }
 
-/**CATEGORIAS**/
+/*CATEGORIAS*/
 
-section.itens {
+.container-itens {
   background-color: #F0F2F5;
 }
 
@@ -214,9 +218,13 @@ p {
   top: 50px;
 }
 
-/**DESCONTOS**/
+/*DESCONTOS*/
 
-h2.descontos {
+.container-newsletter{
+  background-color: #F0F2F5;
+}
+
+.news-title {
   font-family: lato, sans-serif;
   margin: 0 auto;
   text-transform:none;
@@ -227,13 +235,15 @@ h2.descontos {
   padding-bottom: 20px;
 }
 
-p.input {
+p.news {
   font-family: lato, sans-serif;
+  font-size: 20px;
   text-align: center;
   top: -40px;
+  margin-top: 25px;
 }
 
-form.input {
+form.news {
   display: flex;
   flex-direction: row;
   width: 675px;
@@ -251,7 +261,7 @@ input {
   padding-left: 20px;
 }
 
-button.input {
+.botao.form {
   font-family: lato, sans-serif;
   width: 20%;
   height: 50px;;
@@ -264,11 +274,11 @@ button.input {
   cursor: pointer;
 }
 
-button.input:hover {
+.botao.form:hover {
   background-color: #007FC7;
 }
 
-/**FOOTER**/
+/*FOOTER*/
 
 footer {
   display: flex;
@@ -295,9 +305,11 @@ footer p {
 @media screen and (max-width: 1280px) {
   div.itens {
     flex-direction: column;
+    flex-wrap: wrap;
     width: 65%;
     margin: 0 auto;
   }
+
   .categorias {
     width: 80%;
     height: 310px;
@@ -307,7 +319,6 @@ footer p {
   .subtitulo {
     text-align: center;
   }
-
 
   header {
     height: 100px;
@@ -324,8 +335,7 @@ footer p {
     top: 42px;
   }
 
-
-  /**BANNER**/
+  /*BANNER*/
 
   .banner {
     display: block;
@@ -368,5 +378,7 @@ footer p {
   .subtitulo {
   width: 200px;
   }
+
+}
 
 }
