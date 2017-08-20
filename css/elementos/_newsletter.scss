@@ -3,7 +3,7 @@
 }
 
 .news-title {
-  font-family: lato, sans-serif;
+  font-family: $font;
   margin: 0 auto;
   text-transform:none;
   text-align: center;
@@ -14,7 +14,7 @@
 }
 
 p.news {
-  font-family: lato, sans-serif;
+  font-family: $font;
   font-size: 20px;
   text-align: center;
   top: -40px;
