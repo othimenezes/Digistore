@@ -1,0 +1,77 @@
+.banner {
+  background-color: $roxo;
+  height: 440px;
+  width: 1280px;
+  margin: 0 auto;
+  border-top: 1px solid #F0F2F5;
+  overflow: hidden;
+}
+
+.circle.banner {
+  background-color: white;
+  width: 1500px;
+  height: 1200px;
+  border-radius: 1500px;
+  position: relative;
+  top: -850px;
+  left: -850px;
+}
+
+h1 {
+  font-family: lato, sans-serif;
+  text-transform: uppercase;
+  color: #202020;
+  font-size: 30pt;
+  font-weight: 400;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  line-height: 45px;
+  z-index:2;
+}
+
+.maroto {
+  font-family: lato, sans-serif;
+  font-size: 50pt;
+  z-index:2;
+}
+
+.trinta {
+  font-family: lato, sans-serif;
+  font-size: 50pt;
+  color: #00B5C9;
+  z-index:2;
+}
+
+.off {
+  font-family: lato, sans-serif;
+  font-size: 18pt;
+  color: #00B5C9;
+  z-index:2;
+}
+
+.button-compra {
+  font-family: lato, sans-serif;
+  padding: 10px 80px;
+  background-color: $cor-principal;
+  text-decoration: none;
+  color: white;
+  font-size: 13pt;
+  border: 1.4px solid #0083C8;
+  border-radius: 5px;
+  position: relative;
+  top: -80px;
+  left: 100px;
+  z-index:2;
+}
+
+.button-compra:hover {
+  background-color: $cor-principal+#111;
+}
+
+.banner img {
+  width: 477px;
+  position: relative;
+  top: -110px;
+  left: 500px;
+}

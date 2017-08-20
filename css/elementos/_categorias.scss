@@ -1,0 +1,75 @@
+
+.container-itens {
+  background-color: #F0F2F5;
+}
+
+.subtitulo {
+  font-family: lato, sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 200;
+  height: 60px;
+  padding-top: 30px;
+}
+
+div.itens {
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.categorias {
+  background-color: white;
+  width: 270px;
+  height: 310px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.circle-itens {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto;
+  top: 2em;
+  border: 2px solid $cor-principal;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.camisetas {
+  width: 75px;
+  transform: translate(50%);
+  margin: auto 0;
+  position: relative;
+}
+
+.tenis {
+  font-family: lato, sans-serif;
+  width: 75px;
+  margin: auto;
+  position: relative;
+}
+
+.sapatos {
+  width: 75px;
+  margin: auto;
+  position: relative;
+}
+
+.chuteiras {
+  width: 75px;
+  margin: auto;
+  position: relative;
+}
+
+p {
+  font-family: lato, sans-serif;
+  font-size: 17pt;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
