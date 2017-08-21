@@ -89,24 +89,21 @@ h1 {
   top: 100px;
   left: 100px;
   line-height: 45px;
-  z-index:2;
+  z-index:2
 }
 
 .maroto {
-  font-family: lato, sans-serif;
   font-size: 50pt;
   z-index:2;
 }
 
 .trinta {
-  font-family: lato, sans-serif;
   font-size: 50pt;
   color: #00B5C9;
   z-index:2;
 }
 
 .off {
-  font-family: lato, sans-serif;
   font-size: 18pt;
   color: #00B5C9;
   z-index:2;
