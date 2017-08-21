@@ -5,24 +5,24 @@
       width: 65%;
       margin: 0 auto;
     }
-  
+
     .categorias {
       width: 80%;
       height: 310px;
       margin: 10px auto;
     }
-  
+
     .subtitulo {
       text-align: center;
     }
-  
+
     header {
       height: 100px;
       width: 100%;
       display: flex;
       flex-direction: row;
     }
-  
+
     nav {
       margin-left: auto;
       margin-right: 0;
@@ -30,9 +30,7 @@
       position: relative;
       top: 42px;
     }
-  
-    /*BANNER*/
-  
+
     .banner {
       display: block;
       width: 100%;
@@ -40,7 +38,7 @@
       display: flex;
       flex-direction: column;
     }
-  
+
     .circle.banner {
       width: 1700px;
       height: 1000px;
@@ -49,22 +47,21 @@
       border-radius: 0 40%;
       display: flex;
     }
-  
+
     h1 {
       top: 0;
       left: 0;
       margin: auto;
       padding-top: 50px;
     }
-  
+
     .button-compra {
       margin: auto;
       position: relative;
       top: 30px;
       left: -100px;
-      
     }
-  
+
     .banner img {
       position: absolute;
       top: 350px;
@@ -72,11 +69,11 @@
       left: 30%;
       z-index: 2;
     }
-  
+
     div.itens {
       width: 80%;
     }
-  
+
     .subtitulo {
     width: 200px;
     }
@@ -86,7 +83,4 @@
     nav {
       display: none;
     }
-
-
-
   }

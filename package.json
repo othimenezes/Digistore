@@ -1,0 +1,23 @@
+{
+  "name": "digistore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/othimenezes/Digistore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/othimenezes/Digistore/issues"
+  },
+  "homepage": "https://github.com/othimenezes/Digistore#readme"
+}
