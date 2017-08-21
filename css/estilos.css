@@ -48,6 +48,7 @@ header nav .alerta {
   position: relative;
   left: -25px;
   top: 2px;
+  line-height: 4px;
 }
 .banner {
   background-color: #7320DD;
@@ -230,7 +231,7 @@ input {
   cursor: pointer;
 }
 .botao.form:hover {
-  background-color: #007FC7;
+  background-color: #11b2e9;
 }
 footer {
   display: flex;
